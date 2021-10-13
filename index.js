@@ -9,7 +9,7 @@ function sumOfFourAndSix(){
   }
   return sum
 }
-console.log(sumOfFourAndSix())
+//console.log(sumOfFourAndSix())
 //2
 function oddAndEvenInFifteen(){
   for(let i = 0; i <= 15; i++){
@@ -23,19 +23,19 @@ function oddAndEvenInFifteen(){
 //oddAndEvenInFifteen()
 //3
 function assignGrade(score){
-  if (score > 90 ){
+  if (score > 90){
       return "A"
-  } else if (score > 80 && score < 91){
+  } else if (score >= 81){
       return "B"
-  } else if (score > 70 && score < 81){
+  } else if (score >= 71){
       return "C"
-  } else if (score > 65 && score < 71) {
+  } else if (score >= 65 ) {
       return "D"
   } else if (score < 65){
       return "F"
   }
 }
-//console.log(assignGrade(90))
+console.log(assignGrade(67))
 
 
 
